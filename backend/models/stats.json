@@ -1,0 +1,105 @@
+{
+  "cv_f1_macro": 1.0,
+  "cv_f1_std": 0.0,
+  "cv_balanced_acc": 1.0,
+  "cv_auc": 1.0,
+  "test_accuracy": 0.9865,
+  "test_f1_macro": 0.9727,
+  "test_mcc": 0.9833,
+  "test_auc": 1.0,
+  "confusion_matrix": [
+    [
+      23,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      12,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      15,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      10,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      9,
+      1
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      4
+    ]
+  ],
+  "per_class_metrics": {
+    "Psoriasis": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "support": 23
+    },
+    "Seborrheic_Dermatitis": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "support": 12
+    },
+    "Lichen_Planus": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "support": 15
+    },
+    "Pityriasis_Rosea": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "support": 10
+    },
+    "Chronic_Dermatitis": {
+      "precision": 0.9473684210526315,
+      "recall": 0.9,
+      "support": 10
+    },
+    "PRP": {
+      "precision": 0.8888888888888888,
+      "recall": 1.0,
+      "support": 4
+    }
+  },
+  "anomaly_threshold": 2.9492,
+  "n_pca_components": 26,
+  "class_names": [
+    "Psoriasis",
+    "Seborrheic_Dermatitis",
+    "Lichen_Planus",
+    "Pityriasis_Rosea",
+    "Chronic_Dermatitis",
+    "PRP"
+  ],
+  "model": "XGBoost (CalibratedClassifierCV, Platt)",
+  "train_samples": 534,
+  "test_samples": 74
+}
