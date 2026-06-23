@@ -34,7 +34,7 @@ python app.py                # starts Flask on http://localhost:5000
 
 ### Step 2 — Frontend (new terminal)
 ```bash
-cd frontend
+
 npm install
 # Create .env file:
 echo "REACT_APP_API_URL=http://localhost:5000" > .env
