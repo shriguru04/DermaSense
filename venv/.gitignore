@@ -1,5 +1,6 @@
 .env
-DermaSense/frontend/node_modules
-node_modules/
-build/
-
+venv/
+frontend/node_modules/
+frontend/build/
+__pycache__/
+*.pyc
